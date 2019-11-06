@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body {
+  font-family: 'Lato', 400px, sans-serif;
+}
+
+h1 {
+  font-family: 'Lato', 400px, sans-serif;
+}
+
+h2 {
+  font-family: 'Lato', 400px, sans-serif;
+}
+
+h3 {
+  font-family: 'Lato', 400px, sans-serif;
+}
+
+h4 {
+  font-family: 'Lato', 700px, sans-serif;
+}
+
+p{
+  font-family: 'Lato', 400px, sans-serif;
+}
