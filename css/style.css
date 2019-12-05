@@ -101,17 +101,22 @@ footer li {
   padding-right: 10px;
   padding-left: 10px;
 }
-/*
+
 .grid {
   display: grid;
   grid-template-columns: 2fr [content-start] 2fr [content-end];
-  grid-template-rows: 250px [content-start] 200px [content-end];
+  grid-template-rows: 500px [content-start] 500px [content-end];
   grid-column-gap: 20px;
   grid-row-gap: 0;
   max-width: 960px;
   overflow: visible;
 }
 
+/* #about {
+  grid-column: 1 / span 2;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 #education {
   grid-column-start: 1;
   padding-left: 20px;
@@ -132,5 +137,4 @@ footer li {
 #skills{
   grid-row: 3;
   padding-top: 20px;
-}
- */
+} */
