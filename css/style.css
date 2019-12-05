@@ -27,11 +27,14 @@ h2 {
   background-color:#9edbd3;
   height: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  padding: 10px;
+  max-width: 960px;
 }
 
 h3, h4, p {
-  margin: 0;
+  margin: 5px;
+  padding-left: 10px;
 }
 
 nav {
@@ -56,7 +59,7 @@ nav li {
   margin-top: 10px;
 }
 
-a:default {
+a {
   color: #175757;
 }
 a:visited {
@@ -70,6 +73,8 @@ a:active {
 }
 
 footer {
+  bottom: 0;
+  width: 100%;
   max-width: 960px;
   height: 60px;
   background-color: #bce6e0;
@@ -91,6 +96,7 @@ footer li {
   margin-top: 10px;
 }
 
+/*
 .grid {
   display: grid;
   grid-template-columns: 2fr [content-start] 2fr [content-end];
@@ -122,3 +128,4 @@ footer li {
   grid-row: 3;
   padding-top: 20px;
 }
+ */
