@@ -105,10 +105,12 @@ footer li {
 
 .grid {
   display: grid;
-  grid-column-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 200px);
+  grid-column-gap: 30px;
   grid-row-gap: 10px;
-  grid-template-columns: (2, 1fr);
-  grid-template-rows: (2, 200px);
+  /* grid-template-columns: (2, 1fr);
+  grid-template-rows: (200px, 200px); */
   /* grid-template-columns: 2fr 2fr;
   grid-template-rows: 2fr 2fr;
   overflow: visible;
@@ -131,28 +133,37 @@ footer li {
 
 #about {
   width: 100%;
-  grid-row: 1;
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
   margin-bottom: 10px;
 }
 #education {
-  grid-column: 1;
-  grid-row: 2;
-  margin-right: 20px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 #work-experience {
-  grid-row: 2;
-  grid-column: 2;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 5;
 }
 #interests{
-  grid-column: 2;
-  grid-row: 3;
-  margin-right: 20px;
+  margin-top: -100px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
 }
 #skills{
-  grid-column: 1;
-  grid-row: 3;
+  margin-top: -300px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
 }
 #contact {
   padding-bottom: 200px;
